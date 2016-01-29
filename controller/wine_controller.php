@@ -8,7 +8,7 @@
 
 $page = 0;
 
-define("MAX",100);
+define("MAX",50);
 
 if(filter_input(INPUT_GET, 'page')){
 
@@ -24,10 +24,15 @@ function getPaginationLimit($page){
 
     if($page === 1){
         $lower_limit = ($page - 1);
+        $upper_limit = ($page * MAX);
     }else{
         $lower_limit = ($page * MAX);
+        $upper_limit = ($page + 1) * MAX;
     }
-    $upper_limit = ($page * 100);
+
+
+    echo $lower_limit;
+    echo $upper_limit;
 }
 
 if(filter_input (INPUT_GET, 'cmd')){
