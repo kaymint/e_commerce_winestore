@@ -6,11 +6,28 @@
  * Time: 1:32 PM
  */
 
+$page = 0;
+
+define("MAX",100);
+
 if(filter_input(INPUT_GET, 'page')){
 
     $page = $page_sanitize = '';
     $page_sanitize = sanitize_string( filter_input (INPUT_GET, 'page'));
     $page = intval($page_sanitize);
+    getPaginationLimit($page);
+}
+
+
+function getPaginationLimit($page){
+
+
+    if($page === 1){
+        $lower_limit = ($page - 1);
+    }else{
+        $lower_limit = ($page * MAX);
+    }
+    $upper_limit = ($page * 100);
 }
 
 if(filter_input (INPUT_GET, 'cmd')){
