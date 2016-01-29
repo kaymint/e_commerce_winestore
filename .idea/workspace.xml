@@ -231,8 +231,8 @@
             <file leaf-file-name="wine_controller.php" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/controller/wine_controller.php">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.10869565">
-                    <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+                  <state vertical-scroll-proportion="0.8152174">
+                    <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
                     <folding>
                       <element signature="e#6#95#0#PHP" expanded="true" />
                     </folding>
@@ -274,8 +274,8 @@
       <file leaf-file-name="wine.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model/wine.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2392427">
-              <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.28399312">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <element signature="e#6#95#0#PHP" expanded="true" />
                 <marker date="1454075504000" expanded="true" signature="367:410" placeholder="INSERT INTO ..wine..." />
@@ -1260,10 +1260,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/controller/wine_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8152174">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#95#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/model/wine.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2392427">
-          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.28399312">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="e#6#95#0#PHP" expanded="true" />
             <marker date="1454075504000" expanded="true" signature="367:410" placeholder="INSERT INTO ..wine..." />
@@ -1305,16 +1315,6 @@
             <marker date="1454075504000" expanded="true" signature="8128:8488" placeholder="SELECT W.win..wine..." />
             <marker date="1454075504000" expanded="true" signature="8597:8639" placeholder="SELECT W.win..ON..." />
             <marker date="1454075504000" expanded="true" signature="8748:8797" placeholder="SELECT * FRO..grape_variety..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/wine_controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10869565">
-          <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
-          <folding>
-            <element signature="e#6#95#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
