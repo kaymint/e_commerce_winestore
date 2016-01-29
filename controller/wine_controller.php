@@ -42,6 +42,9 @@ if(filter_input (INPUT_GET, 'cmd')){
         case 11:
             addWine();
             break;
+        case 12:
+            update_wine();
+            break;
         case 3:
             get_wine_types();
             break;
@@ -55,7 +58,7 @@ if(filter_input (INPUT_GET, 'cmd')){
 function update_wine(){
     if(filter_input (INPUT_GET, 'name') & filter_input (INPUT_GET, 'type') & filter_input (INPUT_GET, 'year')
         & filter_input (INPUT_GET, 'winery') & filter_input (INPUT_GET, 'id')) {
-        $st = '';
+
         $name = sanitize_string(filter_input(INPUT_GET, 'name'));
         $type = sanitize_string(filter_input(INPUT_GET, 'type'));
         $year = sanitize_string(filter_input(INPUT_GET, 'year'));
@@ -70,7 +73,7 @@ function update_wine(){
         if ($obj->update_wine($name, $type, $year, $winery, $desc, $image, $id)) {
             echo '{"result":1,"message": "Wine updated successfully"}';
         } else {
-            echo '{"result":0,"message": "Add unsuccessful"}';
+            echo '{"result":0,"message": "Update unsuccessful"}';
         }
     }
 }
