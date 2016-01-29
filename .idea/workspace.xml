@@ -2,8 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cef87ff0-4275-4d2e-b823-56c5728ed984" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/controller/admin_controller.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/controller/user_controller.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/controller/wine_controller.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/model/adb.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/model/admin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/model/user.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/model/wine.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/css/bootstrap.min1.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/css/bootstrap.min2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/css/bootstrap2.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/css/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/css/ionicons.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/css/ionicons.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/css/login.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/fonts/ionicons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/fonts/ionicons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/fonts/ionicons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/fonts/ionicons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/img/back10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/img/back9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/img/edited/fortified1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/img/edited/red.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/img/edited/sparkling2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/img/edited/sweet.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/img/edited/white.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/img/fortified1.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/img/fortified3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/img/sparkling.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/img/sweet.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/img/sweet2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/img/sweet3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/img/white.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/img/white1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/js/jquery-2.1.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/js/login.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/login.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Kenneth-Mensah &amp; Ali Seidu/view/wine_view.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/wine_controller.php" afterPath="$PROJECT_DIR$/controller/wine_controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/wine.php" afterPath="$PROJECT_DIR$/model/wine.php" />
     </list>
     <ignored path="e_commerce.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -274,49 +330,49 @@
       <file leaf-file-name="wine.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model/wine.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28399312">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5163511">
+              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
               <folding>
                 <element signature="e#6#95#0#PHP" expanded="true" />
-                <marker date="1454075504000" expanded="true" signature="367:410" placeholder="INSERT INTO ..wine..." />
-                <marker date="1454075504000" expanded="true" signature="367:434" placeholder="INSERT INTO wine..." />
-                <marker date="1454075504000" expanded="true" signature="367:470" placeholder="INSERT INTO wine..." />
-                <marker date="1454075504000" expanded="true" signature="367:471" placeholder="INSERT INTO wine..." />
-                <marker date="1454075504000" expanded="true" signature="367:511" placeholder="INSERT INTO wine..." />
-                <marker date="1454075504000" expanded="true" signature="367:513" placeholder="INSERT INTO wine..." />
-                <marker date="1454075504000" expanded="true" signature="367:554" placeholder="INSERT INTO wine..." />
-                <marker date="1454075504000" expanded="true" signature="367:555" placeholder="INSERT INTO wine..." />
-                <marker date="1454075504000" expanded="true" signature="367:588" placeholder="INSERT INTO wine..." />
-                <marker date="1454075504000" expanded="true" signature="367:601" placeholder="INSERT INTO wine..." />
-                <marker date="1454075504000" expanded="true" signature="367:602" placeholder="INSERT INTO wine..." />
-                <marker date="1454075504000" expanded="true" signature="367:604" placeholder="INSERT INTO wine..." />
-                <marker date="1454075504000" expanded="true" signature="367:648" placeholder="INSERT INTO wine..." />
-                <marker date="1454075504000" expanded="true" signature="367:650" placeholder="INSERT INTO wine..." />
-                <marker date="1454075504000" expanded="true" signature="367:656" placeholder="INSERT INTO wine..." />
-                <marker date="1454075504000" expanded="true" signature="832:1116" placeholder="UPDATE wine ..." />
-                <marker date="1454075504000" expanded="true" signature="832:1155" placeholder="UPDATE wine ..." />
-                <marker date="1454075504000" expanded="true" signature="832:1156" placeholder="UPDATE wine ..." />
-                <marker date="1454075504000" expanded="true" signature="838:1116" placeholder="INSERT INTO wine..." />
-                <marker date="1454075504000" expanded="true" signature="1268:1778" placeholder="SELECT W.win..wine..." />
-                <marker date="1454075504000" expanded="true" signature="1268:1837" placeholder="SELECT W.win..wine..." />
-                <marker date="1454075504000" expanded="true" signature="1268:1855" placeholder="SELECT W.win..wine..." />
-                <marker date="1454075504000" expanded="true" signature="1963:2603" placeholder="SELECT * fro..wine..." />
-                <marker date="1454075504000" expanded="true" signature="2711:3352" placeholder="SELECT DISTI..wine..." />
-                <marker date="1454075504000" expanded="true" signature="3464:4107" placeholder="SELECT DISTI..wine..." />
-                <marker date="1454075504000" expanded="true" signature="4217:4852" placeholder="SELECT DISTI..wine..." />
-                <marker date="1454075504000" expanded="true" signature="4959:4965" placeholder="SELECT W.win..wine..." />
-                <marker date="1454075504000" expanded="true" signature="4959:5036" placeholder="SELECT * FRO..wine_type..." />
-                <marker date="1454075504000" expanded="true" signature="4959:5045" placeholder="SELECT * FRO..wine_type..." />
-                <marker date="1454075504000" expanded="true" signature="5162:5767" placeholder="SELECT W.win..wine..." />
-                <marker date="1454075504000" expanded="true" signature="5162:5790" placeholder="SELECT W.win..wine..." />
-                <marker date="1454075504000" expanded="true" signature="5162:5810" placeholder="SELECT DISTI..wine..." />
-                <marker date="1454075504000" expanded="true" signature="5913:6502" placeholder="SELECT W.win..wine..." />
-                <marker date="1454075504000" expanded="true" signature="6607:7196" placeholder="SELECT DISTI..wine..." />
-                <marker date="1454075504000" expanded="true" signature="7299:8014" placeholder="SELECT DISTI..wine..." />
-                <marker date="1454075504000" expanded="true" signature="7299:8017" placeholder="SELECT DISTI..wine..." />
-                <marker date="1454075504000" expanded="true" signature="8128:8488" placeholder="SELECT W.win..wine..." />
-                <marker date="1454075504000" expanded="true" signature="8597:8639" placeholder="SELECT W.win..ON..." />
-                <marker date="1454075504000" expanded="true" signature="8748:8797" placeholder="SELECT * FRO..grape_variety..." />
+                <marker date="1454077683000" expanded="true" signature="392:435" placeholder="INSERT INTO ..wine..." />
+                <marker date="1454077683000" expanded="true" signature="392:459" placeholder="INSERT INTO wine..." />
+                <marker date="1454077683000" expanded="true" signature="392:495" placeholder="INSERT INTO wine..." />
+                <marker date="1454077683000" expanded="true" signature="392:496" placeholder="INSERT INTO wine..." />
+                <marker date="1454077683000" expanded="true" signature="392:536" placeholder="INSERT INTO wine..." />
+                <marker date="1454077683000" expanded="true" signature="392:538" placeholder="INSERT INTO wine..." />
+                <marker date="1454077683000" expanded="true" signature="392:579" placeholder="INSERT INTO wine..." />
+                <marker date="1454077683000" expanded="true" signature="392:580" placeholder="INSERT INTO wine..." />
+                <marker date="1454077683000" expanded="true" signature="392:613" placeholder="INSERT INTO wine..." />
+                <marker date="1454077683000" expanded="true" signature="392:626" placeholder="INSERT INTO wine..." />
+                <marker date="1454077683000" expanded="true" signature="392:627" placeholder="INSERT INTO wine..." />
+                <marker date="1454077683000" expanded="true" signature="392:629" placeholder="INSERT INTO wine..." />
+                <marker date="1454077683000" expanded="true" signature="392:673" placeholder="INSERT INTO wine..." />
+                <marker date="1454077683000" expanded="true" signature="392:675" placeholder="INSERT INTO wine..." />
+                <marker date="1454077683000" expanded="true" signature="392:681" placeholder="INSERT INTO wine..." />
+                <marker date="1454077683000" expanded="true" signature="857:1141" placeholder="UPDATE wine ..." />
+                <marker date="1454077683000" expanded="true" signature="857:1180" placeholder="UPDATE wine ..." />
+                <marker date="1454077683000" expanded="true" signature="857:1181" placeholder="UPDATE wine ..." />
+                <marker date="1454077683000" expanded="true" signature="863:1141" placeholder="INSERT INTO wine..." />
+                <marker date="1454077683000" expanded="true" signature="1293:1803" placeholder="SELECT W.win..wine..." />
+                <marker date="1454077683000" expanded="true" signature="1293:1862" placeholder="SELECT W.win..wine..." />
+                <marker date="1454077683000" expanded="true" signature="1293:1880" placeholder="SELECT W.win..wine..." />
+                <marker date="1454077683000" expanded="true" signature="1988:2628" placeholder="SELECT * fro..wine..." />
+                <marker date="1454077683000" expanded="true" signature="2736:3377" placeholder="SELECT DISTI..wine..." />
+                <marker date="1454077683000" expanded="true" signature="3489:4132" placeholder="SELECT DISTI..wine..." />
+                <marker date="1454077683000" expanded="true" signature="4242:4877" placeholder="SELECT DISTI..wine..." />
+                <marker date="1454077683000" expanded="true" signature="4984:4990" placeholder="SELECT W.win..wine..." />
+                <marker date="1454077683000" expanded="true" signature="4984:5061" placeholder="SELECT * FRO..wine_type..." />
+                <marker date="1454077683000" expanded="true" signature="4984:5070" placeholder="SELECT * FRO..wine_type..." />
+                <marker date="1454077683000" expanded="true" signature="5187:5792" placeholder="SELECT W.win..wine..." />
+                <marker date="1454077683000" expanded="true" signature="5187:5815" placeholder="SELECT W.win..wine..." />
+                <marker date="1454077683000" expanded="true" signature="5187:5835" placeholder="SELECT DISTI..wine..." />
+                <marker date="1454077683000" expanded="true" signature="5938:6527" placeholder="SELECT W.win..wine..." />
+                <marker date="1454077683000" expanded="true" signature="6632:7221" placeholder="SELECT DISTI..wine..." />
+                <marker date="1454077683000" expanded="true" signature="7324:8039" placeholder="SELECT DISTI..wine..." />
+                <marker date="1454077683000" expanded="true" signature="7324:8042" placeholder="SELECT DISTI..wine..." />
+                <marker date="1454077683000" expanded="true" signature="8153:8513" placeholder="SELECT W.win..wine..." />
+                <marker date="1454077683000" expanded="true" signature="8622:8664" placeholder="SELECT W.win..ON..." />
+                <marker date="1454077683000" expanded="true" signature="8773:8822" placeholder="SELECT * FRO..grape_variety..." />
               </folding>
             </state>
           </provider>
@@ -438,8 +494,8 @@
         <option value="$PROJECT_DIR$/view/wine_view.php" />
         <option value="$PROJECT_DIR$/view/js/login.js" />
         <option value="$PROJECT_DIR$/view/js/index.js" />
-        <option value="$PROJECT_DIR$/model/wine.php" />
         <option value="$PROJECT_DIR$/controller/wine_controller.php" />
+        <option value="$PROJECT_DIR$/model/wine.php" />
       </list>
     </option>
   </component>
@@ -491,16 +547,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="e_commerce" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="e_commerce" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="e_commerce" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -568,6 +614,16 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e_commerce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e_commerce" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -730,7 +786,13 @@
       <option name="project" value="LOCAL" />
       <updated>1454076809684</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Push to server">
+      <created>1454077552576</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1454077552576</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -785,45 +847,45 @@
           <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
           <folding>
             <element signature="e#6#95#0#PHP" expanded="true" />
-            <marker date="1454075504000" expanded="true" signature="367:410" placeholder="INSERT INTO ..wine..." />
-            <marker date="1454075504000" expanded="true" signature="367:434" placeholder="INSERT INTO wine..." />
-            <marker date="1454075504000" expanded="true" signature="367:470" placeholder="INSERT INTO wine..." />
-            <marker date="1454075504000" expanded="true" signature="367:471" placeholder="INSERT INTO wine..." />
-            <marker date="1454075504000" expanded="true" signature="367:511" placeholder="INSERT INTO wine..." />
-            <marker date="1454075504000" expanded="true" signature="367:513" placeholder="INSERT INTO wine..." />
-            <marker date="1454075504000" expanded="true" signature="367:554" placeholder="INSERT INTO wine..." />
-            <marker date="1454075504000" expanded="true" signature="367:555" placeholder="INSERT INTO wine..." />
-            <marker date="1454075504000" expanded="true" signature="367:588" placeholder="INSERT INTO wine..." />
-            <marker date="1454075504000" expanded="true" signature="367:601" placeholder="INSERT INTO wine..." />
-            <marker date="1454075504000" expanded="true" signature="367:602" placeholder="INSERT INTO wine..." />
-            <marker date="1454075504000" expanded="true" signature="367:604" placeholder="INSERT INTO wine..." />
-            <marker date="1454075504000" expanded="true" signature="367:648" placeholder="INSERT INTO wine..." />
-            <marker date="1454075504000" expanded="true" signature="367:650" placeholder="INSERT INTO wine..." />
-            <marker date="1454075504000" expanded="true" signature="367:656" placeholder="INSERT INTO wine..." />
-            <marker date="1454075504000" expanded="true" signature="832:1116" placeholder="UPDATE wine ..." />
-            <marker date="1454075504000" expanded="true" signature="832:1155" placeholder="UPDATE wine ..." />
-            <marker date="1454075504000" expanded="true" signature="832:1156" placeholder="UPDATE wine ..." />
-            <marker date="1454075504000" expanded="true" signature="838:1116" placeholder="INSERT INTO wine..." />
-            <marker date="1454075504000" expanded="true" signature="1268:1778" placeholder="SELECT W.win..wine..." />
-            <marker date="1454075504000" expanded="true" signature="1268:1837" placeholder="SELECT W.win..wine..." />
-            <marker date="1454075504000" expanded="true" signature="1268:1855" placeholder="SELECT W.win..wine..." />
-            <marker date="1454075504000" expanded="true" signature="1963:2603" placeholder="SELECT * fro..wine..." />
-            <marker date="1454075504000" expanded="true" signature="2711:3352" placeholder="SELECT DISTI..wine..." />
-            <marker date="1454075504000" expanded="true" signature="3464:4107" placeholder="SELECT DISTI..wine..." />
-            <marker date="1454075504000" expanded="true" signature="4217:4852" placeholder="SELECT DISTI..wine..." />
-            <marker date="1454075504000" expanded="true" signature="4959:4965" placeholder="SELECT W.win..wine..." />
-            <marker date="1454075504000" expanded="true" signature="4959:5036" placeholder="SELECT * FRO..wine_type..." />
-            <marker date="1454075504000" expanded="true" signature="4959:5045" placeholder="SELECT * FRO..wine_type..." />
-            <marker date="1454075504000" expanded="true" signature="5162:5767" placeholder="SELECT W.win..wine..." />
-            <marker date="1454075504000" expanded="true" signature="5162:5790" placeholder="SELECT W.win..wine..." />
-            <marker date="1454075504000" expanded="true" signature="5162:5810" placeholder="SELECT DISTI..wine..." />
-            <marker date="1454075504000" expanded="true" signature="5913:6502" placeholder="SELECT W.win..wine..." />
-            <marker date="1454075504000" expanded="true" signature="6607:7196" placeholder="SELECT DISTI..wine..." />
-            <marker date="1454075504000" expanded="true" signature="7299:8014" placeholder="SELECT DISTI..wine..." />
-            <marker date="1454075504000" expanded="true" signature="7299:8017" placeholder="SELECT DISTI..wine..." />
-            <marker date="1454075504000" expanded="true" signature="8128:8488" placeholder="SELECT W.win..wine..." />
-            <marker date="1454075504000" expanded="true" signature="8597:8639" placeholder="SELECT W.win..ON..." />
-            <marker date="1454075504000" expanded="true" signature="8748:8797" placeholder="SELECT * FRO..grape_variety..." />
+            <marker date="1454077683000" expanded="true" signature="392:435" placeholder="INSERT INTO ..wine..." />
+            <marker date="1454077683000" expanded="true" signature="392:459" placeholder="INSERT INTO wine..." />
+            <marker date="1454077683000" expanded="true" signature="392:495" placeholder="INSERT INTO wine..." />
+            <marker date="1454077683000" expanded="true" signature="392:496" placeholder="INSERT INTO wine..." />
+            <marker date="1454077683000" expanded="true" signature="392:536" placeholder="INSERT INTO wine..." />
+            <marker date="1454077683000" expanded="true" signature="392:538" placeholder="INSERT INTO wine..." />
+            <marker date="1454077683000" expanded="true" signature="392:579" placeholder="INSERT INTO wine..." />
+            <marker date="1454077683000" expanded="true" signature="392:580" placeholder="INSERT INTO wine..." />
+            <marker date="1454077683000" expanded="true" signature="392:613" placeholder="INSERT INTO wine..." />
+            <marker date="1454077683000" expanded="true" signature="392:626" placeholder="INSERT INTO wine..." />
+            <marker date="1454077683000" expanded="true" signature="392:627" placeholder="INSERT INTO wine..." />
+            <marker date="1454077683000" expanded="true" signature="392:629" placeholder="INSERT INTO wine..." />
+            <marker date="1454077683000" expanded="true" signature="392:673" placeholder="INSERT INTO wine..." />
+            <marker date="1454077683000" expanded="true" signature="392:675" placeholder="INSERT INTO wine..." />
+            <marker date="1454077683000" expanded="true" signature="392:681" placeholder="INSERT INTO wine..." />
+            <marker date="1454077683000" expanded="true" signature="857:1141" placeholder="UPDATE wine ..." />
+            <marker date="1454077683000" expanded="true" signature="857:1180" placeholder="UPDATE wine ..." />
+            <marker date="1454077683000" expanded="true" signature="857:1181" placeholder="UPDATE wine ..." />
+            <marker date="1454077683000" expanded="true" signature="863:1141" placeholder="INSERT INTO wine..." />
+            <marker date="1454077683000" expanded="true" signature="1293:1803" placeholder="SELECT W.win..wine..." />
+            <marker date="1454077683000" expanded="true" signature="1293:1862" placeholder="SELECT W.win..wine..." />
+            <marker date="1454077683000" expanded="true" signature="1293:1880" placeholder="SELECT W.win..wine..." />
+            <marker date="1454077683000" expanded="true" signature="1988:2628" placeholder="SELECT * fro..wine..." />
+            <marker date="1454077683000" expanded="true" signature="2736:3377" placeholder="SELECT DISTI..wine..." />
+            <marker date="1454077683000" expanded="true" signature="3489:4132" placeholder="SELECT DISTI..wine..." />
+            <marker date="1454077683000" expanded="true" signature="4242:4877" placeholder="SELECT DISTI..wine..." />
+            <marker date="1454077683000" expanded="true" signature="4984:4990" placeholder="SELECT W.win..wine..." />
+            <marker date="1454077683000" expanded="true" signature="4984:5061" placeholder="SELECT * FRO..wine_type..." />
+            <marker date="1454077683000" expanded="true" signature="4984:5070" placeholder="SELECT * FRO..wine_type..." />
+            <marker date="1454077683000" expanded="true" signature="5187:5792" placeholder="SELECT W.win..wine..." />
+            <marker date="1454077683000" expanded="true" signature="5187:5815" placeholder="SELECT W.win..wine..." />
+            <marker date="1454077683000" expanded="true" signature="5187:5835" placeholder="SELECT DISTI..wine..." />
+            <marker date="1454077683000" expanded="true" signature="5938:6527" placeholder="SELECT W.win..wine..." />
+            <marker date="1454077683000" expanded="true" signature="6632:7221" placeholder="SELECT DISTI..wine..." />
+            <marker date="1454077683000" expanded="true" signature="7324:8039" placeholder="SELECT DISTI..wine..." />
+            <marker date="1454077683000" expanded="true" signature="7324:8042" placeholder="SELECT DISTI..wine..." />
+            <marker date="1454077683000" expanded="true" signature="8153:8513" placeholder="SELECT W.win..wine..." />
+            <marker date="1454077683000" expanded="true" signature="8622:8664" placeholder="SELECT W.win..ON..." />
+            <marker date="1454077683000" expanded="true" signature="8773:8822" placeholder="SELECT * FRO..grape_variety..." />
           </folding>
         </state>
       </provider>
@@ -1272,49 +1334,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model/wine.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28399312">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5163511">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
           <folding>
             <element signature="e#6#95#0#PHP" expanded="true" />
-            <marker date="1454075504000" expanded="true" signature="367:410" placeholder="INSERT INTO ..wine..." />
-            <marker date="1454075504000" expanded="true" signature="367:434" placeholder="INSERT INTO wine..." />
-            <marker date="1454075504000" expanded="true" signature="367:470" placeholder="INSERT INTO wine..." />
-            <marker date="1454075504000" expanded="true" signature="367:471" placeholder="INSERT INTO wine..." />
-            <marker date="1454075504000" expanded="true" signature="367:511" placeholder="INSERT INTO wine..." />
-            <marker date="1454075504000" expanded="true" signature="367:513" placeholder="INSERT INTO wine..." />
-            <marker date="1454075504000" expanded="true" signature="367:554" placeholder="INSERT INTO wine..." />
-            <marker date="1454075504000" expanded="true" signature="367:555" placeholder="INSERT INTO wine..." />
-            <marker date="1454075504000" expanded="true" signature="367:588" placeholder="INSERT INTO wine..." />
-            <marker date="1454075504000" expanded="true" signature="367:601" placeholder="INSERT INTO wine..." />
-            <marker date="1454075504000" expanded="true" signature="367:602" placeholder="INSERT INTO wine..." />
-            <marker date="1454075504000" expanded="true" signature="367:604" placeholder="INSERT INTO wine..." />
-            <marker date="1454075504000" expanded="true" signature="367:648" placeholder="INSERT INTO wine..." />
-            <marker date="1454075504000" expanded="true" signature="367:650" placeholder="INSERT INTO wine..." />
-            <marker date="1454075504000" expanded="true" signature="367:656" placeholder="INSERT INTO wine..." />
-            <marker date="1454075504000" expanded="true" signature="832:1116" placeholder="UPDATE wine ..." />
-            <marker date="1454075504000" expanded="true" signature="832:1155" placeholder="UPDATE wine ..." />
-            <marker date="1454075504000" expanded="true" signature="832:1156" placeholder="UPDATE wine ..." />
-            <marker date="1454075504000" expanded="true" signature="838:1116" placeholder="INSERT INTO wine..." />
-            <marker date="1454075504000" expanded="true" signature="1268:1778" placeholder="SELECT W.win..wine..." />
-            <marker date="1454075504000" expanded="true" signature="1268:1837" placeholder="SELECT W.win..wine..." />
-            <marker date="1454075504000" expanded="true" signature="1268:1855" placeholder="SELECT W.win..wine..." />
-            <marker date="1454075504000" expanded="true" signature="1963:2603" placeholder="SELECT * fro..wine..." />
-            <marker date="1454075504000" expanded="true" signature="2711:3352" placeholder="SELECT DISTI..wine..." />
-            <marker date="1454075504000" expanded="true" signature="3464:4107" placeholder="SELECT DISTI..wine..." />
-            <marker date="1454075504000" expanded="true" signature="4217:4852" placeholder="SELECT DISTI..wine..." />
-            <marker date="1454075504000" expanded="true" signature="4959:4965" placeholder="SELECT W.win..wine..." />
-            <marker date="1454075504000" expanded="true" signature="4959:5036" placeholder="SELECT * FRO..wine_type..." />
-            <marker date="1454075504000" expanded="true" signature="4959:5045" placeholder="SELECT * FRO..wine_type..." />
-            <marker date="1454075504000" expanded="true" signature="5162:5767" placeholder="SELECT W.win..wine..." />
-            <marker date="1454075504000" expanded="true" signature="5162:5790" placeholder="SELECT W.win..wine..." />
-            <marker date="1454075504000" expanded="true" signature="5162:5810" placeholder="SELECT DISTI..wine..." />
-            <marker date="1454075504000" expanded="true" signature="5913:6502" placeholder="SELECT W.win..wine..." />
-            <marker date="1454075504000" expanded="true" signature="6607:7196" placeholder="SELECT DISTI..wine..." />
-            <marker date="1454075504000" expanded="true" signature="7299:8014" placeholder="SELECT DISTI..wine..." />
-            <marker date="1454075504000" expanded="true" signature="7299:8017" placeholder="SELECT DISTI..wine..." />
-            <marker date="1454075504000" expanded="true" signature="8128:8488" placeholder="SELECT W.win..wine..." />
-            <marker date="1454075504000" expanded="true" signature="8597:8639" placeholder="SELECT W.win..ON..." />
-            <marker date="1454075504000" expanded="true" signature="8748:8797" placeholder="SELECT * FRO..grape_variety..." />
+            <marker date="1454077683000" expanded="true" signature="392:435" placeholder="INSERT INTO ..wine..." />
+            <marker date="1454077683000" expanded="true" signature="392:459" placeholder="INSERT INTO wine..." />
+            <marker date="1454077683000" expanded="true" signature="392:495" placeholder="INSERT INTO wine..." />
+            <marker date="1454077683000" expanded="true" signature="392:496" placeholder="INSERT INTO wine..." />
+            <marker date="1454077683000" expanded="true" signature="392:536" placeholder="INSERT INTO wine..." />
+            <marker date="1454077683000" expanded="true" signature="392:538" placeholder="INSERT INTO wine..." />
+            <marker date="1454077683000" expanded="true" signature="392:579" placeholder="INSERT INTO wine..." />
+            <marker date="1454077683000" expanded="true" signature="392:580" placeholder="INSERT INTO wine..." />
+            <marker date="1454077683000" expanded="true" signature="392:613" placeholder="INSERT INTO wine..." />
+            <marker date="1454077683000" expanded="true" signature="392:626" placeholder="INSERT INTO wine..." />
+            <marker date="1454077683000" expanded="true" signature="392:627" placeholder="INSERT INTO wine..." />
+            <marker date="1454077683000" expanded="true" signature="392:629" placeholder="INSERT INTO wine..." />
+            <marker date="1454077683000" expanded="true" signature="392:673" placeholder="INSERT INTO wine..." />
+            <marker date="1454077683000" expanded="true" signature="392:675" placeholder="INSERT INTO wine..." />
+            <marker date="1454077683000" expanded="true" signature="392:681" placeholder="INSERT INTO wine..." />
+            <marker date="1454077683000" expanded="true" signature="857:1141" placeholder="UPDATE wine ..." />
+            <marker date="1454077683000" expanded="true" signature="857:1180" placeholder="UPDATE wine ..." />
+            <marker date="1454077683000" expanded="true" signature="857:1181" placeholder="UPDATE wine ..." />
+            <marker date="1454077683000" expanded="true" signature="863:1141" placeholder="INSERT INTO wine..." />
+            <marker date="1454077683000" expanded="true" signature="1293:1803" placeholder="SELECT W.win..wine..." />
+            <marker date="1454077683000" expanded="true" signature="1293:1862" placeholder="SELECT W.win..wine..." />
+            <marker date="1454077683000" expanded="true" signature="1293:1880" placeholder="SELECT W.win..wine..." />
+            <marker date="1454077683000" expanded="true" signature="1988:2628" placeholder="SELECT * fro..wine..." />
+            <marker date="1454077683000" expanded="true" signature="2736:3377" placeholder="SELECT DISTI..wine..." />
+            <marker date="1454077683000" expanded="true" signature="3489:4132" placeholder="SELECT DISTI..wine..." />
+            <marker date="1454077683000" expanded="true" signature="4242:4877" placeholder="SELECT DISTI..wine..." />
+            <marker date="1454077683000" expanded="true" signature="4984:4990" placeholder="SELECT W.win..wine..." />
+            <marker date="1454077683000" expanded="true" signature="4984:5061" placeholder="SELECT * FRO..wine_type..." />
+            <marker date="1454077683000" expanded="true" signature="4984:5070" placeholder="SELECT * FRO..wine_type..." />
+            <marker date="1454077683000" expanded="true" signature="5187:5792" placeholder="SELECT W.win..wine..." />
+            <marker date="1454077683000" expanded="true" signature="5187:5815" placeholder="SELECT W.win..wine..." />
+            <marker date="1454077683000" expanded="true" signature="5187:5835" placeholder="SELECT DISTI..wine..." />
+            <marker date="1454077683000" expanded="true" signature="5938:6527" placeholder="SELECT W.win..wine..." />
+            <marker date="1454077683000" expanded="true" signature="6632:7221" placeholder="SELECT DISTI..wine..." />
+            <marker date="1454077683000" expanded="true" signature="7324:8039" placeholder="SELECT DISTI..wine..." />
+            <marker date="1454077683000" expanded="true" signature="7324:8042" placeholder="SELECT DISTI..wine..." />
+            <marker date="1454077683000" expanded="true" signature="8153:8513" placeholder="SELECT W.win..wine..." />
+            <marker date="1454077683000" expanded="true" signature="8622:8664" placeholder="SELECT W.win..ON..." />
+            <marker date="1454077683000" expanded="true" signature="8773:8822" placeholder="SELECT * FRO..grape_variety..." />
           </folding>
         </state>
       </provider>
