@@ -314,28 +314,12 @@ function searchWines(){
 }
 
 
-function displayWines(obj){
-    var wineCollection = "";
-    for (var index in obj.wines){
-        wineCollection += '<tr><td>'+obj.wines[index].wine_name+'</td>';
-        wineCollection += '<td>'+obj.wines[index].wine_type+'</td>';
-        wineCollection += '<td>'+obj.wines[index].winery_name+'</td>';
-        wineCollection += '<td>'+obj.wines[index].year+'</td></tr>';
-    }
-
-    $('#wine_collection').html(wineCollection);
-}
-
-
-
-
-
 function displayWinesInDiv(obj){
 
     var i = 0
     var wineCollection = "";
     var admin = window.localStorage.getItem("admin");
-    alert(admin);
+
     for (var index in obj.wines){
 
         wineCollection += '<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"> ' +

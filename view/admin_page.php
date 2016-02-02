@@ -79,55 +79,76 @@ session_start();
     </div>
 </nav>
 
+<ul id="sidebar" class="nav nav-pills nav-stacked col-sm-3"">
+    <li class="active"><a href="#">Home</a></li>
+
+<div class="form-group">
+
+    <div class="input-group">
+        <span class="input-group-addon">$</span>
+        <input type="text" class="form-control">
+    <span class="input-group-btn">
+      <button class="btn btn-default" type="button">Button</button>
+    </span>
+    </div>
+</div>
+
+    <li>
+        <input type="text" placeholder="search wines" onkeyup="searchWines()" id="search_input">
+    </li>
+    <li class="disabled"><a href="#">Disabled</a></li>
+    <li class="">
+        <a class="dropdown-toggle" data-toggle="collapse" href="#test" aria-expanded="false">
+            Dropdown <span class="caret"></span>
+        </a>
+        <ul id="test" class="collapse dropdown">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+        </ul>
+    </li>
+    <li class="">
+        <a class="dropdown-toggle" data-toggle="collapse" href="#test1" aria-expanded="false">
+            Dropdown <span class="caret"></span>
+        </a>
+        <ul id="test1" class="collapse dropdown">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+        </ul>
+    </li>
+</ul>
 
 
-<div >
+<!--    <div class="col-sm-3">-->
+<!--        <div class="collapse navbar-collapse">-->
 
-    <div class="col-sm-3">
-        <div class="collapse navbar-collapse">
-            <ul id="sidebar" class="nav nav-pills nav-stacked">
+
+            <ul id="sidebar" class="nav nav-pills nav-stacked list-group panel col-sm-3">
                 <li>
-                    <input type="text" placeholder="search wines" onkeyup="searchWines()" id="search_input">
-                </li>
-                <li>
-                    <select name="search_select" id="search_criteria" onchange="searchWines()">
-                        <option value="1" selected>wine name</option>
-                        <option value="2">wine type</option>
-                        <option value="3">winnery</option>
-                        <option value="4">price</option>
-                    </select>
-                </li>
-                <li>
-                    <select name="wine_select" id="wine_category" onchange="getWineCategories()">
-                        <option>Select Wine</option>
-                    </select>
-                </li>
-                <li>
-                    <select name="sort_select" id="sort_criteria" onchange="sort()">
-                        <option>Sort by:</option>
-                        <option value="5">name</option>
-                        <option value="6">price</option>
-                    </select>
-                </li>
 
-                <?php
-                if(isset($_SESSION['role'])){
-                    echo '<li><a href="javascript: showAddForm()">Add Wine</a></li>';
-                }
 
-                ?>
 
-                <li></li>
+
 
             </ul>
-        </div>
-    </div>
-    <div class="col-sm-9">
+<!--        </div>-->
+
+<div class="col-sm-3">
+    sth
+</div>
+
+
+    <div class="col-sm-6">
         <h1>Wines</h1>
 
         <hr>
 
-        <div id="wine_collection2">
+        <div id="wine_collection">
 
         </div>
     </div>
