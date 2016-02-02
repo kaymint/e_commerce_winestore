@@ -79,24 +79,26 @@ session_start();
     </div>
 </nav>
 
-<ul id="sidebar" class="nav nav-pills nav-stacked col-sm-3"">
-    <li class="active"><a href="#">Home</a></li>
+<ul id="sidebar" class="nav nav-pills nav-stacked col-sm-2">
 
-<div class="form-group">
 
-    <div class="input-group">
-        <span class="input-group-addon">$</span>
-        <input type="text" class="form-control">
-    <span class="input-group-btn">
-      <button class="btn btn-default" type="button">Button</button>
-    </span>
-    </div>
-</div>
+    <li><div class="form-group">
 
-    <li>
-        <input type="text" placeholder="search wines" onkeyup="searchWines()" id="search_input">
+            <div class="input-group">
+                <input type="text" placeholder="search wines" onkeyup="searchWines()" id="search_input" class="form-control">
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="button">
+                  <span class="fa fa-search"></span>
+              </button>
+            </span>
+            </div>
+        </div>
     </li>
-    <li class="disabled"><a href="#">Disabled</a></li>
+
+    <li><a href="#">Home  <span class="pull-right"><span class="fa fa-home"></span></span></a></li>
+    <li><a href="#">Home  <span class="pull-right"><span class="fa fa-home"></span></span></a></li>
+
+    <li class=""><a href="#">Disabled</a></li>
     <li class="">
         <a class="dropdown-toggle" data-toggle="collapse" href="#test" aria-expanded="false">
             Dropdown <span class="caret"></span>
@@ -113,13 +115,12 @@ session_start();
         <a class="dropdown-toggle" data-toggle="collapse" href="#test1" aria-expanded="false">
             Dropdown <span class="caret"></span>
         </a>
-        <ul id="test1" class="collapse dropdown">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-        </ul>
+        <div id="test1" class="collapse">
+            <div><a href="#">Action</a></div>
+            <div><a href="#">Another action</a></div>
+            <div><a href="#">Something else here</a></div>
+            <div><a href="#">Separated link</a></div>
+        </div>
     </li>
 </ul>
 
@@ -127,18 +128,9 @@ session_start();
 <!--    <div class="col-sm-3">-->
 <!--        <div class="collapse navbar-collapse">-->
 
-
-            <ul id="sidebar" class="nav nav-pills nav-stacked list-group panel col-sm-3">
-                <li>
-
-
-
-
-
-            </ul>
 <!--        </div>-->
 
-<div class="col-sm-3">
+<div class="col-sm-4">
     sth
 </div>
 

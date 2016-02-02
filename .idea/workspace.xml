@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cef87ff0-4275-4d2e-b823-56c5728ed984" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testItems" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/admin_page.php" afterPath="$PROJECT_DIR$/view/admin_page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/js/admin.js" afterPath="$PROJECT_DIR$/view/js/admin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/css/admin.css" afterPath="$PROJECT_DIR$/view/css/admin.css" />
     </list>
     <ignored path="e_commerce.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -192,26 +191,36 @@
       </PATH_ELEMENT>
     </PATH>
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="admin.css" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/view/css/admin.css">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state vertical-scroll-proportion="0.65696466">
+                    <caret line="135" column="28" selection-start-line="135" selection-start-column="28" selection-end-line="135" selection-end-column="28" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="e_commerce" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="upload.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/upload.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="testUpload.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/testUpload.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-4.375">
               <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
               <folding />
             </state>
@@ -248,15 +257,15 @@
       <file leaf-file-name="admin_page.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/admin_page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3005009">
-              <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.24116424">
+              <caret line="81" column="58" selection-start-line="81" selection-start-column="58" selection-end-line="81" selection-end-column="58" />
               <folding>
-                <marker date="1454439776000" expanded="true" signature="2110:2581" placeholder="..." />
-                <marker date="1454439776000" expanded="true" signature="2234:2301" placeholder="..." />
-                <marker date="1454439776000" expanded="true" signature="2368:2547" placeholder="..." />
-                <marker date="1454439776000" expanded="true" signature="2642:3119" placeholder="..." />
-                <marker date="1454439776000" expanded="true" signature="2766:2837" placeholder="..." />
-                <marker date="1454439776000" expanded="true" signature="2904:3085" placeholder="..." />
+                <marker date="1454454133000" expanded="true" signature="2110:2581" placeholder="..." />
+                <marker date="1454454133000" expanded="true" signature="2234:2301" placeholder="..." />
+                <marker date="1454454133000" expanded="true" signature="2368:2547" placeholder="..." />
+                <marker date="1454454133000" expanded="true" signature="2642:3119" placeholder="..." />
+                <marker date="1454454133000" expanded="true" signature="2766:2837" placeholder="..." />
+                <marker date="1454454133000" expanded="true" signature="2904:3085" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -338,10 +347,10 @@
         <option value="$PROJECT_DIR$/model/testUpload.php" />
         <option value="$PROJECT_DIR$/model/upload.php" />
         <option value="$PROJECT_DIR$/view/css/login.css" />
-        <option value="$PROJECT_DIR$/view/css/admin.css" />
         <option value="$PROJECT_DIR$/view/js/admin.js" />
         <option value="$PROJECT_DIR$/testItems" />
         <option value="$PROJECT_DIR$/view/admin_page.php" />
+        <option value="$PROJECT_DIR$/view/css/admin.css" />
       </list>
     </option>
   </component>
@@ -357,10 +366,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="257" />
-    <option name="y" value="61" />
-    <option name="width" value="1283" />
-    <option name="height" value="769" />
+    <option name="x" value="24" />
+    <option name="y" value="153" />
+    <option name="width" value="964" />
+    <option name="height" value="651" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -485,6 +494,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -531,7 +541,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -638,18 +647,24 @@
       <option name="project" value="LOCAL" />
       <updated>1454094401154</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="pagination function complete">
+      <created>1454439841118</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1454439841118</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="257" y="61" width="1283" height="769" extended-state="0" />
+    <frame x="24" y="153" width="964" height="651" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19500403" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26681128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06929895" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09327549" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -987,14 +1002,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/testUpload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/img/back9.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1071,14 +1078,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/upload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/js/admin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42975205">
@@ -1090,14 +1089,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/css/admin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1222031">
-          <caret line="106" column="1" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testItems">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1106,17 +1097,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/model/upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7817048">
+          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/testUpload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.375">
+          <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/css/admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65696466">
+          <caret line="135" column="28" selection-start-line="135" selection-start-column="28" selection-end-line="135" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/view/admin_page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3005009">
-          <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.24116424">
+          <caret line="81" column="58" selection-start-line="81" selection-start-column="58" selection-end-line="81" selection-end-column="58" />
           <folding>
-            <marker date="1454439776000" expanded="true" signature="2110:2581" placeholder="..." />
-            <marker date="1454439776000" expanded="true" signature="2234:2301" placeholder="..." />
-            <marker date="1454439776000" expanded="true" signature="2368:2547" placeholder="..." />
-            <marker date="1454439776000" expanded="true" signature="2642:3119" placeholder="..." />
-            <marker date="1454439776000" expanded="true" signature="2766:2837" placeholder="..." />
-            <marker date="1454439776000" expanded="true" signature="2904:3085" placeholder="..." />
+            <marker date="1454454133000" expanded="true" signature="2110:2581" placeholder="..." />
+            <marker date="1454454133000" expanded="true" signature="2234:2301" placeholder="..." />
+            <marker date="1454454133000" expanded="true" signature="2368:2547" placeholder="..." />
+            <marker date="1454454133000" expanded="true" signature="2642:3119" placeholder="..." />
+            <marker date="1454454133000" expanded="true" signature="2766:2837" placeholder="..." />
+            <marker date="1454454133000" expanded="true" signature="2904:3085" placeholder="..." />
           </folding>
         </state>
       </provider>
