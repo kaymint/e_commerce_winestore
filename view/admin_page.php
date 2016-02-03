@@ -103,19 +103,18 @@ session_start();
         <a class="dropdown-toggle" data-toggle="collapse" href="#test" aria-expanded="false">
             Dropdown <span class="caret"></span>
         </a>
-        <ul id="test" class="collapse dropdown">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-        </ul>
+        <div id="test" class="collapse submenu">
+            <div><a href="#">Action</a></div>
+            <div><a href="#">Another action</a></div>
+            <div><a href="#">Something else here</a></div>
+            <div><a href="#">Separated link</a></div>
+        </div>
     </li>
     <li class="">
         <a class="dropdown-toggle" data-toggle="collapse" href="#test1" aria-expanded="false">
             Dropdown <span class="caret"></span>
         </a>
-        <div id="test1" class="collapse">
+        <div id="test1" class="collapse submenu">
             <div><a href="#">Action</a></div>
             <div><a href="#">Another action</a></div>
             <div><a href="#">Something else here</a></div>
