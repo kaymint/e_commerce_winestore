@@ -1,10 +1,3 @@
-/**
- * Created by StreetHustling on 2/3/16.
- */
-
-/**
- * Created by StreetHustling on 1/29/16.
- */
 
 /**
  * Created by StreetHustling on 1/21/16.
@@ -27,6 +20,7 @@ function sendRequest(u){
     //Convert the JSON string to object
 
     var result=$.parseJSON(obj.responseText);
+
 
     return result;	//return object
 }
@@ -302,12 +296,17 @@ function displayCategoryList(obj){
     $("#wine_category").append(categoryList);
 }
 
+var searchOption = 1;
+
+function setSearchOption(id){
+    searchOption = id;
+}
 
 function searchWines(){
-    var searchType = $("#search_criteria option:selected").val();
+
     var st = $("#search_input" ).val();
     var theUrl="http://localhost/e_commerce/controller/wine_controller.php?cmd=2&wine="+
-        st+"&type="+searchType;
+        st+"&type="+searchOption;
     var obj=sendRequest(theUrl);		//send request to the above url
     if(obj.result===1) {					//check result
         displayWinesInDiv(obj);
@@ -328,11 +327,11 @@ function displayWinesInDiv(obj){
 
         wineCollection += '<tr>';
         wineCollection += '<td><input type="checkbox"></td>';
-        wineCollection += '<td class="mailbox-name"><a href="javascript: alert('+obj.wines[index].winery_id+')">'+
+        wineCollection += '<td class="mailbox-name"><a href="javascript: alert('+obj.wines[index].wine_id+')">'+
             obj.wines[index].wine_name+'</a></td>';
         wineCollection += '<td class="mailbox-subject"><b>'+obj.wines[index].wine_type+
                 '</b> - '+obj.wines[index].winery_name+'</td>';
-        wineCollection += '<td class="mailbox-date">'+obj.wines[index].cost+'</td>';
+        wineCollection += '<td class="mailbox-date">$'+obj.wines[index].cost+'</td>';
         wineCollection += '<td class="mailbox-star"><button class="btn btn-default btn-sm" ' +
             'onclick="alert('+obj.wines[index].wine_id+')">' +
             '<i class="fa fa-edit"></i> </button></td>';

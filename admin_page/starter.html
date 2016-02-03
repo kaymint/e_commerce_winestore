@@ -285,13 +285,30 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <div class="col-md-6">
             <div class="box box-primary">
               <div class="box-header with-border">
-                <h3 class="box-title">Wine Inventory</h3>
-                <div class="box-tools pull-right">
+
+                <div class="box-tools pull-left">
                   <div class="has-feedback">
-                    <input type="text" class="form-control input-sm" placeholder="Search Inventory">
+                    <input type="text" class="form-control input-sm" placeholder="Search Inventory"
+                           onkeyup="searchWines()" id="search_input">
                     <span class="glyphicon glyphicon-search form-control-feedback"></span>
                   </div>
                 </div><!-- /.box-tools -->
+                  <div class="pull-left center-block">
+                  <div class="btn-group">
+                      <button type="button" class="btn btn-default">Search by</button>
+                      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                          <span class="caret"></span>
+                          <span class="sr-only">Toggle Dropdown</span>
+                      </button>
+                      <ul class="dropdown-menu" role="menu" id="search_option">
+                          <li><a href="javascript: setSearchOption(1)">name</a></li>
+                          <li><a href="javascript: setSearchOption(2)">type</a></li>
+                          <li><a href="javascript: setSearchOption(3)">winnery</a></li>
+                          <li><a href="javascript: setSearchOption(4)">price</a></li>
+
+                      </ul>
+                  </div>
+                  </div>
               </div><!-- /.box-header -->
               <div class="box-body no-padding">
                 <div class="mailbox-controls">

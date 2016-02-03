@@ -75,20 +75,19 @@ class wine extends adb{
 
 
     function search_wines($st){
-        $str_query = "SELECT DISTINCT
+        $str_query = "SELECT
                       W.wine_id,
                       W.wine_name,
                       W.year,
                       WT.wine_type,
                       WW.winery_name,
-                      I.price
-                      FROM wine W LEFT JOIN winery WW
+                      I.cost
+                      FROM wine W INNER JOIN winery WW
                       ON WW.winery_id = W.winery_id
-                      LEFT JOIN wine_type WT
+                      INNER JOIN wine_type WT
                       ON W.wine_type = WT.wine_type_id
-                      LEFT JOIN items I
+                      INNER JOIN inventory I
                       ON W.wine_id = I.wine_id
-                      WHERE I.qty=1
                       AND W.wine_name LIKE '%$st%'
                       ORDER BY W.wine_name";
 
@@ -102,14 +101,13 @@ class wine extends adb{
                       W.year,
                       WT.wine_type,
                       WW.winery_name,
-                      I.price
-                      FROM wine W LEFT JOIN winery WW
+                      I.cost
+                      FROM wine W INNER JOIN winery WW
                       ON WW.winery_id = W.winery_id
-                      LEFT JOIN wine_type WT
+                      INNER JOIN wine_type WT
                       ON W.wine_type = WT.wine_type_id
-                      LEFT JOIN items I
+                      INNER JOIN inventory I
                       ON W.wine_id = I.wine_id
-                      WHERE I.qty=1
                       AND WT.wine_type LIKE '%$st%'
                       ORDER BY W.wine_name";
 
@@ -124,14 +122,13 @@ class wine extends adb{
                       W.year,
                       WT.wine_type,
                       WW.winery_name,
-                      I.price
-                      FROM wine W LEFT JOIN winery WW
+                      I.cost
+                      FROM wine W INNER JOIN winery WW
                       ON WW.winery_id = W.winery_id
-                      LEFT JOIN wine_type WT
+                      INNER JOIN wine_type WT
                       ON W.wine_type = WT.wine_type_id
-                      LEFT JOIN items I
+                      INNER JOIN inventory I
                       ON W.wine_id = I.wine_id
-                      WHERE I.qty=1
                       AND WW.winery_name LIKE '%$st%'
                       ORDER BY W.wine_name";
 
@@ -146,15 +143,14 @@ class wine extends adb{
                       W.year,
                       WT.wine_type,
                       WW.winery_name,
-                      I.price
-                      FROM wine W LEFT JOIN winery WW
+                      I.cost
+                      FROM wine W INNER JOIN winery WW
                       ON WW.winery_id = W.winery_id
-                      LEFT JOIN wine_type WT
+                      INNER JOIN wine_type WT
                       ON W.wine_type = WT.wine_type_id
-                      LEFT JOIN items I
+                      INNER JOIN inventory I
                       ON W.wine_id = I.wine_id
-                      WHERE I.qty=1
-                      AND I.price LIKE '$st%'
+                      AND I.cost LIKE '$st%'
                       ORDER BY W.wine_name";
 
         return $this->query($str_query);
@@ -177,16 +173,15 @@ class wine extends adb{
                       W.year,
                       WT.wine_type,
                       WW.winery_name,
-                      I.price
-                      FROM wine W LEFT JOIN winery WW
+                      I.cost
+                      FROM wine W INNER JOIN winery WW
                       ON WW.winery_id = W.winery_id
-                      LEFT JOIN wine_type WT
+                      INNER JOIN wine_type WT
                       ON W.wine_type = WT.wine_type_id
-                      LEFT JOIN items I
+                      INNER JOIN inventory I
                       ON W.wine_id = I.wine_id
-                      WHERE I.qty=1
                       AND WT.wine_type LIKE '%$wine_type%'
-                      ORDER BY W.wine_name";
+                      ORDER BY WT.wine_type";
 
         return $this->query($str_query);
     }
@@ -198,14 +193,13 @@ class wine extends adb{
                       W.year,
                       WT.wine_type,
                       WW.winery_name,
-                      I.price
-                      FROM wine W LEFT JOIN winery WW
+                      I.cost
+                      FROM wine W INNER JOIN winery WW
                       ON WW.winery_id = W.winery_id
-                      LEFT JOIN wine_type WT
+                      INNER JOIN wine_type WT
                       ON W.wine_type = WT.wine_type_id
-                      LEFT JOIN items I
+                      INNER JOIN inventory I
                       ON W.wine_id = I.wine_id
-                      WHERE I.qty=1
                       ORDER BY W.wine_name";
 
         return $this->query($str_query);
@@ -219,15 +213,14 @@ class wine extends adb{
                       W.year,
                       WT.wine_type,
                       WW.winery_name,
-                      I.price
-                      FROM wine W LEFT JOIN winery WW
+                      I.cost
+                      FROM wine W INNER JOIN winery WW
                       ON WW.winery_id = W.winery_id
-                      LEFT JOIN wine_type WT
+                      INNER JOIN wine_type WT
                       ON W.wine_type = WT.wine_type_id
-                      LEFT JOIN items I
+                      INNER JOIN inventory I
                       ON W.wine_id = I.wine_id
-                      WHERE I.qty=1
-                      ORDER BY I.price ASC";
+                      ORDER BY I.cost ASC";
 
         return $this->query($str_query);
     }
@@ -239,17 +232,16 @@ class wine extends adb{
                       W.year,
                       WT.wine_type,
                       WW.winery_name,
-                      I.price,
+                      I.cost,
                       R.region_name
-                      FROM wine W LEFT JOIN winery WW
+                      FROM wine W INNER JOIN winery WW
                       ON WW.winery_id = W.winery_id
-                      LEFT JOIN wine_type WT
+                      INNER JOIN wine_type WT
                       ON W.wine_type = WT.wine_type_id
-                      LEFT JOIN items I
+                      INNER JOIN inventory I
                       ON W.wine_id = I.wine_id
-                      LEFT JOIN region R
+                      INNER JOIN region R
                       ON R.region_id = WW.region_id
-                      WHERE I.qty=1
                       AND W.wine_id = $id";
 
         return $this->query($str_query);
@@ -261,9 +253,9 @@ class wine extends adb{
                       W.wine_id,
                       W.wine_name,
                       GV.variety
-                      FROM wine W LEFT JOIN wine_variety WV
+                      FROM wine W INNER JOIN wine_variety WV
                       ON WV.wine_id = W.wine_id
-                      LEFT JOIN grape_variety GV
+                      INNER JOIN grape_variety GV
                       ON GV.variety_id = WV.variety_id
                       WHERE W.wine_id = $id";
 
