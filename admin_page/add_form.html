@@ -1,0 +1,54 @@
+<div class="box box-warning">
+    <div class="box-header with-border">
+        <h3 class="box-title" id="form_title">Add Form</h3>
+    </div><!-- /.box-header -->
+    <div class="box-body">
+        <form role="form">
+            <!-- text input -->
+            <div class="form-group">
+                <label>Wine Name</label>
+                <input type="text" class="form-control" placeholder="Enter wine name" id="inputWineName">
+            </div>
+
+            <!-- textarea -->
+            <div class="form-group">
+                <label>Description</label>
+                <textarea class="form-control" rows="3" placeholder="Enter description" id="wineDesc"></textarea>
+            </div>
+
+            <!-- text input -->
+            <div class="form-group">
+                <label>Wine Year</label>
+                <input type="number" class="form-control" placeholder="Enter year" id="inputWineYear">
+            </div>
+
+            <!-- select -->
+            <div class="form-group">
+                <label>Select Wine Type</label>
+                <select class="form-control" id="wineType">
+
+                </select>
+            </div>
+
+            <!-- Select multiple-->
+            <div class="form-group">
+                <label>Winery</label>
+                <select class="form-control" id="wineryName">
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="wineImage">File input</label>
+                <input type="file" id="wineImage">
+                <p class="help-block">Select Image</p>
+            </div>
+
+            <div class="box-footer">
+                <button type="button" class="btn btn-primary" id="formSubmit">Add Wine</button>
+                <button type="reset" class="btn btn-primary">Cancel</button>
+            </div>
+
+
+        </form>
+    </div><!-- /.box-body -->
+</div><!-- /.box -->

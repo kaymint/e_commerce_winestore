@@ -266,7 +266,21 @@ function get_wine_types(){
 
 function show_wines(){
 
+    //1
+    if (isset($_GET['pageno'])) {
+        $pageno = $_GET['pageno'];
+    } else {
+        $pageno = 1;
+    }
+
     $obj = get_wine_model();
+    $obj->get_count();
+    $row = $obj->fetch();
+
+    $numrows = $row['total'];
+
+
+
 
     if ($obj->view_wines()){
         echo '{"result":1, "wines":[';

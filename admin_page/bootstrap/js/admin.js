@@ -55,9 +55,9 @@ function addWine(){
 var updateId = 0;
 
 
-$("#adminLogin").click(function(){
+$("#formSubmit").click(function(){
 
-    var btnFunction = $("#adminLogin").text();
+    var btnFunction = $("#formSubmit").text();
     if(btnFunction.localeCompare("Add Wine") === 0){
         addWine();
     }else if(btnFunction.localeCompare("Update") === 0){
@@ -78,14 +78,14 @@ function updateWineDetails(id){
     var image = desc;
 
 
-    var theUrl="http://localhost/e_commerce/controller/wine_controller.php?cmd=11&name=" +name+
-        "&type="+type+"&year="+year+"&winery="+winery+"&desc="+desc+"&image="+image;
+    var theUrl="http://localhost/e_commerce/controller/wine_controller.php?cmd=12&name=" +name+
+        "&type="+type+"&year="+year+"&winery="+winery+"&desc="+desc+"&image="+image+"&id="+updateId;
     var obj=sendRequest(theUrl);		//send request to the above url
     if(obj.result===1) {					//check result
-        alert("Added Succesfully");
+        alert("Updated Succesfully");
     }
     else{
-        alert("Could not Add");
+        alert("Could not Update");
     }
 }
 
@@ -110,7 +110,7 @@ function displayWineries(obj){
             obj.winery[index].winery_name+'</option>';
     }
 
-    $("#wineryName").append(winery);
+    $("#wineryName").html(winery);
 }
 
 
@@ -133,7 +133,7 @@ function displayWineTypes(obj){
             obj.wine_types[index].wine_type+'</option>';
     }
 
-    $("#wineType").append(winery);
+    $("#wineType").html(winery);
 }
 
 
@@ -195,33 +195,14 @@ function viewWineDetails(id){
 }
 
 function displayWinesDetails(obj){
-    $(".modal-title").text(obj.wines[0].wine_name);
+    $("#detailsWineName").val(obj.wines[0].wine_name);
+    $("#detailsWineDesc").text(obj.wines[0].description);
 
-    var src = [];
-    src[0] = "img/edited/sparkling2.jpg";
-    src[1] = "img/edited/red.jpg";
-    src[2] = "img/edited/fortified1.jpg";
-    src[3] = "img/edited/white.jpg";
-    src[4] = "img/edited/sweet.jpg";
-
-
-    if(obj.wines[0].wine_type === "Sparkling"){
-        $(".modal-body img").attr("src", src[0]);
-    }else if(obj.wines[0].wine_type === "Red"){
-        $(".modal-body img").attr("src", src[1]);
-    }else if(obj.wines[0].wine_type === "Fortified"){
-        $(".modal-body img").attr("src", src[2]);
-    }else if(obj.wines[0].wine_type === "White"){
-        $(".modal-body img").attr("src", src[3]);
-    }else{
-        $(".modal-body img").attr("src", src[4]);
-    }
-
-    $("#modal-wine-type").text(obj.wines[0].wine_type);
-    $("#modal-winnery-name").text(obj.wines[0].winery_name);
-    $("#modal-wine-year").text(obj.wines[0].year);
-    $("#modal-wine-price").text("$ "+ obj.wines[0].price);
-    $("#modal-wine-region").text(obj.wines[0].region_name);
+    $("#detailsWineType").val(obj.wines[0].wine_type);
+    $("#detailsWineryName").val(obj.wines[0].winery_name);
+    $("#detailsWineYear").val(obj.wines[0].year);
+    $("#detailsWinePrice").text("$ "+ obj.wines[0].cost);
+    $("#detailsWineRegion").text(obj.wines[0].region_name);
 }
 
 
@@ -335,13 +316,13 @@ function displayWinesInDiv(obj){
 
         wineCollection += '<tr>';
         wineCollection += '<td><input type="checkbox"></td>';
-        wineCollection += '<td class="mailbox-name"><a href="javascript: alert('+obj.wines[index].wine_id+')">'+
+        wineCollection += '<td class="mailbox-name"><a href="javascript: showDetails('+obj.wines[index].wine_id+')">'+
             obj.wines[index].wine_name+'</a></td>';
         wineCollection += '<td class="mailbox-subject"><b>'+obj.wines[index].wine_type+
                 '</b> - '+obj.wines[index].winery_name+'</td>';
         wineCollection += '<td class="mailbox-date">$'+obj.wines[index].cost+'</td>';
         wineCollection += '<td class="mailbox-star"><button class="btn btn-default btn-sm" ' +
-            'onclick="alert('+obj.wines[index].wine_id+')">' +
+            'onclick="updateWine('+obj.wines[index].wine_id+')">' +
             '<i class="fa fa-edit"></i> </button></td>';
         wineCollection += '<td class="mailbox-star"><button class="btn btn-default btn-sm" ' +
             'onclick="alert('+obj.wines[index].wine_id+')">' +
@@ -351,6 +332,8 @@ function displayWinesInDiv(obj){
         wineCollection += '</tr>';
     }
 
+    displayWinesDetails(obj);
+
     $('#wine_collection2').html(wineCollection);
 }
 
@@ -358,11 +341,10 @@ function displayWinesInDiv(obj){
 function updateWine(id){
 
     updateId = id;
-    getGrapeVariety();
+    //getGrapeVariety();
     getWineries();
     getWineTypes();
     getUpdateDetails(id);
-    $('#addModal').modal('toggle');
 }
 
 
@@ -372,7 +354,7 @@ function getUpdateDetails(id){
     if(obj.result===1) {					//check result
         $("#inputWineName").val(obj.wines[0].wine_name);
         $("#inputWineYear").val(obj.wines[0].year);
-        $("#adminLogin").text("Update");
+        $("#formSubmit").text("Update");
     }
     else{
         return false;
@@ -383,17 +365,17 @@ function getUpdateDetails(id){
 
 function showDetails(id){
     viewWineDetails(id);
-    getVariety(id);
-    $('#myModal').modal('toggle');
+    //getVariety(id);
+    //$('#myModal').modal('toggle');
 }
 
 
 function showAddForm(){
-    $("#adminLogin").text("Add Wine");
-    getGrapeVariety();
+    $("#formSubmit").text("Add Wine");
+    $("#form_title").text("Add Wine");
+    //getGrapeVariety();
     getWineries();
     getWineTypes();
-    $('#addModal').modal('toggle');
 }
 
 

@@ -22,3 +22,15 @@
                         <a href="" class="list-group-item">Subitem 3</a>
                     </div>
                 </div>
+
+
+
+
+
+
+
+
+
+
+                http://localhost/e_commerce/controller/wine_controller.php?cmd=12&name=" +name+
+                        "&type="+type+"&year="+year+"&winery="+winery+"&desc="+desc+"&image="+image

@@ -22,6 +22,22 @@ class wine extends adb{
     }
 
 
+    function get_count(){
+        $str_query = "SELECT COUNT(*)
+                      AS total
+                      FROM wine W LEFT JOIN winery WW
+                      ON WW.winery_id = W.winery_id
+                      LEFT JOIN wine_type WT
+                      ON W.wine_type = WT.wine_type_id
+                      LEFT JOIN inventory I
+                      ON W.wine_id = I.wine_id
+                      ORDER BY W.wine_id";
+
+
+        return $this->query($str_query);
+    }
+
+
     function add_wine($wine_name, $wine_type, $year, $winery_id, $description, $image){
         $str_query = "INSERT INTO wine SET
                       wine_name = '$wine_name',
@@ -283,6 +299,9 @@ class wine extends adb{
 
 
 }
+
+
+
 
 
 

@@ -314,7 +314,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <div class="mailbox-controls">
                   <!-- Check all button -->
                   <div class="btn-group">
-                    <button class="btn btn-default btn-sm"><i class="fa fa-plus"></i> New Wine</button>
+                    <button class="btn btn-default btn-sm" onclick="showAddForm()"><i class="fa fa-plus"></i> New Wine</button>
                     <button class="btn btn-default btn-sm"><i class="fa fa-trash"></i> </button>
                   </div><!-- /.btn-group -->
                     <div class="btn-group">
@@ -344,7 +344,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                         </ul>
                     </div>
 
-                  <button class="btn btn-default btn-sm"><i class="fa fa-refresh"></i></button>
+                  <button class="btn btn-default btn-sm" onclick="showWines()"><i class="fa fa-refresh"></i></button>
                   <div class="pull-right">
                     1-50/200
                     <div class="btn-group">
@@ -383,68 +383,134 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </div><!-- /. box -->
           </div><!-- /.col -->
 
-            <div class="col-md-6">
-                <div class="col-md-2 box box-info ">
-                    <div class="box-header">
-                        <h3 class="box-title">Input masks</h3>
-                    </div>
-                    <div class="box-body">
-                        <!-- Date dd/mm/yyyy -->
-                        <div class="form-group">
-                            <label>Date masks:</label>
-                            <div class="input-group">
-                                <div class="input-group-addon">
-                                    <i class="fa fa-calendar"></i>
-                                </div>
-                                <input type="text" class="form-control" data-inputmask="'alias': 'dd/mm/yyyy'" data-mask>
-                            </div><!-- /.input group -->
-                        </div><!-- /.form group -->
+            <div class="col-md-6" id="content_area">
 
-                        <!-- Date mm/dd/yyyy -->
-                        <div class="form-group">
-                            <div class="input-group">
-                                <div class="input-group-addon">
-                                    <i class="fa fa-calendar"></i>
-                                </div>
-                                <input type="text" class="form-control" data-inputmask="'alias': 'mm/dd/yyyy'" data-mask>
-                            </div><!-- /.input group -->
-                        </div><!-- /.form group -->
+                <div class="nav-tabs-custom">
+                    <ul class="nav nav-tabs">
+                        <li><a href="#activity" data-toggle="tab">Modify</a></li>
+                        <li class="active"><a href="#details" data-toggle="tab">Details</a></li>
+                    </ul>
+                    <div class="tab-content">
 
-                        <!-- phone mask -->
-                        <div class="form-group">
-                            <label>US phone mask:</label>
-                            <div class="input-group">
-                                <div class="input-group-addon">
-                                    <i class="fa fa-phone"></i>
-                                </div>
-                                <input type="text" class="form-control" data-inputmask='"mask": "(999) 999-9999"' data-mask>
-                            </div><!-- /.input group -->
-                        </div><!-- /.form group -->
+                        <div class="active tab-pane" id="details">
+                            <div class="box box-warning">
+                                <div class="box-header with-border">
+                                    <h3 class="box-title" >Details</h3>
+                                </div><!-- /.box-header -->
+                                <div class="box-body">
+                                    <form role="form">
+                                        <!-- text input -->
+                                        <div class="form-group">
+                                            <label>Wine Name</label>
+                                            <input type="text" class="form-control" placeholder="Enter wine name" id="detailsWineName" disabled>
+                                        </div>
 
-                        <!-- phone mask -->
-                        <div class="form-group">
-                            <label>Intl US phone mask:</label>
-                            <div class="input-group">
-                                <div class="input-group-addon">
-                                    <i class="fa fa-phone"></i>
-                                </div>
-                                <input type="text" class="form-control" data-inputmask="'mask': ['999-999-9999 [x99999]', '+099 99 99 9999[9]-9999']" data-mask>
-                            </div><!-- /.input group -->
-                        </div><!-- /.form group -->
+                                        <!-- textarea -->
+                                        <div class="form-group">
+                                            <label>Description</label>
+                                            <textarea class="form-control" rows="3" placeholder="Enter description" id="detailsWineDesc" disabled></textarea>
+                                        </div>
 
-                        <!-- IP mask -->
-                        <div class="form-group">
-                            <label>IP mask:</label>
-                            <div class="input-group">
-                                <div class="input-group-addon">
-                                    <i class="fa fa-laptop"></i>
-                                </div>
-                                <input type="text" class="form-control" data-inputmask="'alias': 'ip'" data-mask>
-                            </div><!-- /.input group -->
-                        </div><!-- /.form group -->
+                                        <!-- textarea -->
+                                        <div class="form-group">
+                                            <label>Region</label>
+                                            <textarea class="form-control" rows="3" placeholder="Enter description" id="detailsWineRegion" disabled></textarea>
+                                        </div>
 
-                    </div><!-- /.box-body -->
-                </div><!-- /.box -->
+                                        <!-- text input -->
+                                        <div class="form-group">
+                                            <label>Wine Year</label>
+                                            <input type="text" class="form-control" placeholder="Enter year" id="detailsWineYear" disabled>
+                                        </div>
+
+                                        <!-- select -->
+                                        <div class="form-group">
+                                            <label>Wine Type</label>
+                                            <input type="text" class="form-control" id="detailsWineType" disabled>
+                                        </div>
+
+                                        <!-- textarea -->
+                                        <div class="form-group">
+                                            <label>Price</label>
+                                            <textarea class="form-control" rows="3" placeholder="Enter description" id="detailsWinePrice" disabled></textarea>
+                                        </div>
+
+
+                                        <div class="form-group">
+                                            <label>Winery</label>
+                                            <input type="text" class="form-control" id="detailsWineryName" disabled>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <img id="detailsWineImage">
+                                        </div>
+
+                                    </form>
+                                </div><!-- /.box-body -->
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="activity">
+                            <div class="box box-warning">
+                                <div class="box-header with-border">
+                                    <h3 class="box-title" id="form_title">Add Form</h3>
+                                </div><!-- /.box-header -->
+                                <div class="box-body">
+                                    <form role="form">
+                                        <!-- text input -->
+                                        <div class="form-group">
+                                            <label>Wine Name</label>
+                                            <input type="text" class="form-control" placeholder="Enter wine name" id="inputWineName">
+                                        </div>
+
+                                        <!-- textarea -->
+                                        <div class="form-group">
+                                            <label>Description</label>
+                                            <textarea class="form-control" rows="3" placeholder="Enter description" id="wineDesc"></textarea>
+                                        </div>
+
+                                        <!-- text input -->
+                                        <div class="form-group">
+                                            <label>Wine Year</label>
+                                            <input type="number" class="form-control" placeholder="Enter year" id="inputWineYear">
+                                        </div>
+
+                                        <!-- select -->
+                                        <div class="form-group">
+                                            <label>Select Wine Type</label>
+                                            <select class="form-control" id="wineType">
+
+                                            </select>
+                                        </div>
+
+                                        <!-- Select multiple-->
+                                        <div class="form-group">
+                                            <label>Winery</label>
+                                            <select class="form-control" id="wineryName">
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="wineImage">File input</label>
+                                            <input type="file" id="wineImage">
+                                            <p class="help-block">Select Image</p>
+                                        </div>
+
+                                        <div class="box-footer">
+                                            <button type="button" class="btn btn-primary" id="formSubmit">Add Wine</button>
+                                            <button type="reset" class="btn btn-primary">Cancel</button>
+                                        </div>
+
+
+                                    </form>
+                                </div><!-- /.box-body -->
+                            </div>
+                            <!-- /.box -->
+                        </div>
+
+
+
+                    </div><!-- /.tab-content -->
+                </div><!-- /.nav-tabs-custom -->
             </div>
 
 
