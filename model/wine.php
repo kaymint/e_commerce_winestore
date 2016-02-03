@@ -57,16 +57,16 @@ class wine extends adb{
                       W.wine_id,
                       W.wine_name,
                       W.year,
+                      W.description,
                       WT.wine_type,
                       WW.winery_name,
-                      I.price
+                      I.cost
                       FROM wine W LEFT JOIN winery WW
                       ON WW.winery_id = W.winery_id
                       LEFT JOIN wine_type WT
                       ON W.wine_type = WT.wine_type_id
-                      LEFT JOIN items I
+                      LEFT JOIN inventory I
                       ON W.wine_id = I.wine_id
-                      WHERE I.qty=1
                       ORDER BY W.wine_id";
 
 

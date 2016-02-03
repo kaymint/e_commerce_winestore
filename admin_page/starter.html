@@ -282,7 +282,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 
           <!-- Your Page Content Here -->
-          <div class="col-md-5">
+          <div class="col-md-6">
             <div class="box box-primary">
               <div class="box-header with-border">
                 <h3 class="box-title">Wine Inventory</h3>
@@ -300,6 +300,26 @@ scratch. This page gets rid of all links and provides the needed markup only.
                     <button class="btn btn-default btn-sm"><i class="fa fa-plus"></i> New Wine</button>
                     <button class="btn btn-default btn-sm"><i class="fa fa-trash"></i> </button>
                   </div><!-- /.btn-group -->
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default">Sort By</button>
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                            <span class="caret"></span>
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu" >
+                            <li><a href="#">Name</a></li>
+                            <li><a href="#">Price</a></li>
+                        </ul>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default">View by</button>
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                            <span class="caret"></span>
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu" id="wine_category">
+                        </ul>
+                    </div>
                   <button class="btn btn-default btn-sm"><i class="fa fa-refresh"></i></button>
                   <div class="pull-right">
                     1-50/200
@@ -311,7 +331,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 </div>
                 <div class="table-responsive mailbox-messages">
                   <table class="table table-hover table-striped">
-                    <tbody>
+                    <tbody id="wine_collection2">
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="mailbox-star"><a href="#"><i class="fa fa-star text-yellow"></i></a></td>
@@ -458,7 +478,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </div><!-- /. box -->
           </div><!-- /.col -->
 
-            <div class="col-md-7">
+            <div class="col-md-6">
                 <div class="col-md-2 box box-info ">
                     <div class="box-header">
                         <h3 class="box-title">Input masks</h3>
