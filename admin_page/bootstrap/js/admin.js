@@ -225,8 +225,9 @@ function displayWinesDetails(obj){
 }
 
 
-function sort(){
-    var st = $("#sort_criteria option:selected").val();
+function sort(st){
+    //var st = $("#sort_criteria option:selected").val();
+    alert(st);
 
     var theUrl="http://localhost/e_commerce/controller/wine_controller.php?cmd="+st;
     var obj=sendRequest(theUrl);		//send request to the above url
@@ -239,11 +240,18 @@ function sort(){
 }
 
 
-function getWineCategories(){
+function getWineCategories(st){
 
-    var st = $("#wine_category option:selected").val();
+    //var st = $("#wine_category option:selected").val();
 
-    var theUrl="http://localhost/e_commerce/controller/wine_controller.php?cmd=4&cat="+st;
+    alert(st);
+    var theUrl= "";
+    if(st === 'All'){
+        theUrl="http://localhost/e_commerce/controller/wine_controller.php?cmd=1";
+    }else{
+        theUrl="http://localhost/e_commerce/controller/wine_controller.php?cmd=4&cat="+st;
+    }
+
     var obj=sendRequest(theUrl);		//send request to the above url
     if(obj.result===1) {					//check result
         displayWinesInDiv(obj);
@@ -289,11 +297,11 @@ function displayCategoryList(obj){
     var categoryList = "";
     for (var index in obj.wine_types){
 
-        categoryList += '<li><a href="javascript: alert('+obj.wine_types[index].wine_type+')">'+
+        categoryList += '<li><a href="javascript: getWineCategories('+obj.wine_types[index].wine_type+')">'+
             obj.wine_types[index].wine_type+'</a></li>';
 
     }
-    $("#wine_category").append(categoryList);
+    //$("#wine_category").append(categoryList);
 }
 
 var searchOption = 1;
