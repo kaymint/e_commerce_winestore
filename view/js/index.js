@@ -225,7 +225,7 @@ function displayWinesDetails(obj){
     $("#modal-wine-type").text(obj.wines[0].wine_type);
     $("#modal-winnery-name").text(obj.wines[0].winery_name);
     $("#modal-wine-year").text(obj.wines[0].year);
-    $("#modal-wine-price").text("$ "+ obj.wines[0].price);
+    $("#modal-wine-price").text("$ "+ obj.wines[0].cost);
     $("#modal-wine-region").text(obj.wines[0].region_name);
 }
 
@@ -330,8 +330,8 @@ function displayWinesInDiv(obj){
 
     var i = 0
     var wineCollection = "";
-    var admin = window.localStorage.getItem("admin");
-    alert(admin);
+
+
     for (var index in obj.wines){
 
         wineCollection += '<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"> ' +
@@ -357,16 +357,11 @@ function displayWinesInDiv(obj){
 
         '<a class="info" href="javascript: showDetails('+obj.wines[index].wine_id+')">View Details</a>';
 
-
-        if(admin.localeCompare("admin") === 0){
-            wineCollection +='<a class="info" href="javascript: updateWine('+obj.wines[index].wine_id+')">Update</a>';
-        }
-
         wineCollection +='</div>'+
         '</div>' +
             '<div class="wine_desc"><p>'+obj.wines[index].wine_name+' '+obj.wines[index].wine_type+'' +
             '<span class="pull-right">$' +
-            obj.wines[index].price+'<a href="#"><span class="fa fa-shopping-cart"></span></a></span></p></div>'+
+            obj.wines[index].cost+'<a href="#"><span class="fa fa-shopping-cart"></span></a></span></p></div>'+
         '</div>';
 
     }

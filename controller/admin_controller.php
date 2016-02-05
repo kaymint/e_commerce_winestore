@@ -82,12 +82,13 @@ function login(){
 function logout(){
     session_destroy();
 
-    header("Location: http://localhost/e_commerce/view/wine_view.php");
+    header("Location: http://localhost/e_commerce/view/login.php");
 }
 
 function setSessionValues($username){
     $_SESSION['username'] = $username;
     $_SESSION['role'] = 'Administrator';
+    $_SESSION['current_session'] = session_id();
 }
 
 

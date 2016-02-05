@@ -28,10 +28,8 @@ function validateUser(user, pass){
     if(obj.result===0) {					//check result
        alert('Invalid User');
     }else{
-        localStorage.setItem("admin", "admin");
 
-        alert(localStorage.getItem("admin"));
-        window.location.href = "http://localhost/e_commerce/view/wine_view.php";
+        window.location.href = "http://localhost/e_commerce/admin_page/starter.php";
     }
 }
 

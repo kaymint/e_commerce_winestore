@@ -68,7 +68,7 @@ class wine extends adb{
 
 
 
-    function view_wines(){
+    function view_wines($limit){
         $str_query = "SELECT DISTINCT
                       W.wine_id,
                       W.wine_name,
@@ -85,7 +85,7 @@ class wine extends adb{
                       ON W.wine_id = I.wine_id
                       ORDER BY W.wine_id";
 
-
+        $str_query .= " ".$limit;
         return $this->query($str_query);
     }
 

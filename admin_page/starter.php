@@ -1,3 +1,11 @@
+<?php
+    session_start();
+    if(!isset($_SESSION['current_session'])){
+        header("Location: http://localhost/e_commerce/view/login.php");
+    }
+?>
+
+
 <!DOCTYPE html>
 <!--
 This is a starter template page. Use this page to start your new project from
@@ -202,7 +210,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                       <a href="#" class="btn btn-default btn-flat">Profile</a>
                     </div>
                     <div class="pull-right">
-                      <a href="#" class="btn btn-default btn-flat">Sign out</a>
+                      <a href="http://localhost/e_commerce/controller/admin_controller.php?cmd=3" class="btn btn-default btn-flat">Sign out</a>
                     </div>
                   </li>
                 </ul>
@@ -345,13 +353,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
                     </div>
 
                   <button class="btn btn-default btn-sm" onclick="showWines()"><i class="fa fa-refresh"></i></button>
-                  <div class="pull-right">
-                    1-50/200
-                    <div class="btn-group">
-                      <button class="btn btn-default btn-sm"><i class="fa fa-chevron-left"></i></button>
-                      <button class="btn btn-default btn-sm"><i class="fa fa-chevron-right"></i></button>
-                    </div><!-- /.btn-group -->
-                  </div><!-- /.pull-right -->
                 </div>
                 <div class="table-responsive mailbox-messages">
                   <table class="table table-hover table-striped">
@@ -363,19 +364,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
               </div><!-- /.box-body -->
               <div class="box-footer no-padding">
                 <div class="mailbox-controls">
-                  <!-- Check all button -->
-                  <button class="btn btn-default btn-sm checkbox-toggle"><i class="fa fa-square-o"></i></button>
-                  <div class="btn-group">
-                    <button class="btn btn-default btn-sm"><i class="fa fa-trash-o"></i></button>
-                    <button class="btn btn-default btn-sm"><i class="fa fa-reply"></i></button>
-                    <button class="btn btn-default btn-sm"><i class="fa fa-share"></i></button>
-                  </div><!-- /.btn-group -->
-                  <button class="btn btn-default btn-sm"><i class="fa fa-refresh"></i></button>
                   <div class="pull-right">
-                    1-50/200
-                    <div class="btn-group">
-                      <button class="btn btn-default btn-sm"><i class="fa fa-chevron-left"></i></button>
-                      <button class="btn btn-default btn-sm"><i class="fa fa-chevron-right"></i></button>
+                    <span id="pageNumber">1</span>/<span id="pageLimit">500</span>
+                    <div class="btn-group" id="pageBtn">
+                      <button class="btn btn-default btn-sm" onclick="previous()"><i class="fa fa-chevron-left"></i></button>
+                      <button class="btn btn-default btn-sm" onclick="next()"><i class="fa fa-chevron-right"></i></button>
                     </div><!-- /.btn-group -->
                   </div><!-- /.pull-right -->
                 </div>

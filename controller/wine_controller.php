@@ -267,8 +267,8 @@ function get_wine_types(){
 function show_wines(){
 
     //1
-    if (isset($_GET['pageno'])) {
-        $pageno = $_GET['pageno'];
+    if (isset($_GET['page'])) {
+        $pageno = $_GET['page'];
     } else {
         $pageno = 1;
     }
@@ -280,9 +280,26 @@ function show_wines(){
     $numrows = $row['total'];
 
 
+    /*
+     * rows per page
+     */
+    $rows_per_page = 16;
+    $lastpage = ceil($numrows/$rows_per_page);
+
+    //4
+    $pageno = (int)$pageno;
+    if ($pageno > $lastpage) {
+        $pageno = $lastpage;
+    } // if
+    if ($pageno < 1) {
+        $pageno = 1;
+    } // if
+
+    //5
+    $limit = 'LIMIT ' .($pageno - 1) * $rows_per_page .',' .$rows_per_page;
 
 
-    if ($obj->view_wines()){
+    if ($obj->view_wines($limit)){
         echo '{"result":1, "wines":[';
         $row = $obj->fetch();
         while($row){
@@ -291,7 +308,7 @@ function show_wines(){
                 echo ',';
             }
         }
-        echo ']}';
+        echo '], "page_number":'.$pageno.', "lastpage":'.$lastpage.'}';
     }else{
         echo '{"result":0,"message": "query unsuccessful"}';
     }

@@ -26,6 +26,10 @@ function sendRequest(u){
 }
 
 
+var pageNumber = 1;
+var lastPage = 5;
+
+
 
 function addWine(){
 
@@ -124,6 +128,24 @@ function getWineTypes(){
     else{
         return false;
     }
+}
+
+
+function next(){
+    if(pageNumber < lastPage){
+        pageNumber = pageNumber + 1;
+    }
+    showWines();
+}
+
+function previous(){
+    if(pageNumber > 1){
+        pageNumber = pageNumber - 1;
+    }else{
+        pageNumber = 1;
+    }
+
+    showWines();
 }
 
 function displayWineTypes(obj){
@@ -248,7 +270,7 @@ function getWineCategories(st){
  */
 function showWines(){
 
-    var theUrl="http://localhost/e_commerce/controller/wine_controller.php?cmd=1";
+    var theUrl="http://localhost/e_commerce/controller/wine_controller.php?cmd=1&page="+pageNumber;
     var obj=sendRequest(theUrl);		//send request to the above url
     if(obj.result===1) {					//check result
 
@@ -335,6 +357,12 @@ function displayWinesInDiv(obj){
     displayWinesDetails(obj);
 
     $('#wine_collection2').html(wineCollection);
+
+    $('#pageNumber').text(obj.page_number);
+    $('#pageLimit').text(obj.lastpage);
+
+    pageNumber = obj.page_number;
+    lastPage = obj.lastpage;
 }
 
 
