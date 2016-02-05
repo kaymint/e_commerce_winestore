@@ -363,6 +363,24 @@ function displayWinesInDiv(obj){
 
     pageNumber = obj.page_number;
     lastPage = obj.lastpage;
+
+    var numPage = '';
+    var pageIter = pageNumber;
+    var totalNumpages = 5;
+    for( i = 0 ; i < totalNumpages; i++){
+        numPage += '<button class="btn btn-default btn-sm" onclick="fetchPage('+pageIter+')">'+
+            pageIter+'</button>';
+
+        pageIter++;
+    }
+
+    $("#numberedPagination").html(numPage);
+}
+
+function fetchPage(page){
+
+    pageNumber = page;
+    showWines();
 }
 
 

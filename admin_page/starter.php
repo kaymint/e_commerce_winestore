@@ -368,8 +368,13 @@ scratch. This page gets rid of all links and provides the needed markup only.
                     <span id="pageNumber">1</span>/<span id="pageLimit">500</span>
                     <div class="btn-group" id="pageBtn">
                       <button class="btn btn-default btn-sm" onclick="previous()"><i class="fa fa-chevron-left"></i></button>
-                      <button class="btn btn-default btn-sm" onclick="next()"><i class="fa fa-chevron-right"></i></button>
                     </div><!-- /.btn-group -->
+                      <div class="btn-group" id="numberedPagination">
+
+                      </div>
+                      <div class="btn-group" id="pageBtn">
+                          <button class="btn btn-default btn-sm" onclick="next()"><i class="fa fa-chevron-right"></i></button>
+                      </div>
                   </div><!-- /.pull-right -->
                 </div>
               </div>
