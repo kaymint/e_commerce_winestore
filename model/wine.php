@@ -7,9 +7,9 @@
  */
 
 
-include_once 'adb.php';
+include_once 'adb_procedural.php';
 
-class wine extends adb{
+class wine extends adb_procedural{
 
 
     /**
@@ -295,10 +295,10 @@ class wine extends adb{
 
         return $this->query($str_query);
     }
-
-
-
 }
+
+
+
 
 
 
